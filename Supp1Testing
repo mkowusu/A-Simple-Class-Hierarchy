@@ -1,0 +1,100 @@
+Michael Owusu
+
+Supplemental Problem 1
+
+Testing:
+
+Reasonable Circumstances 
+1.
+A possible problem that I checked for during testing was the correct
+function of my costPerUnit method in my Beverage class. I wanted to make
+sure that it was returning the correct numbers.
+
+2.
+Another issue I ran into was making a getCost method adapt to include the container deposit. As a result, I was not able to base my getCost method in my Beverage class off the one from my Item class. I'm sure it is possible, but at this time I don't know how to expand on a method from the super class and use it in a static class. The super command I learned in the toString did not work with static classes. The same was true of my Produce class and the costPerUnit method. I encountered the problem when I tried to print the result of the getCost and costPerUnit methods in their respective subclasses. I declared them using the outputs from the super class, but they could not be printed in the main methods because they were a super in a static subclass. My goal for the future is to learn a way around this.
+
+3.
+Something else I wanted to test was ShoppinCart's correctness for calculating totalCost. I wrote the function, but it wasn't for a while before I wondered whether or not the total calculation was really correct.
+
+4. 
+The last issue I am talking about here is potential for an incorrect calculation of numberInCart. I am testing this to make sure that my numbers are correct and that they aren't off by one or anything like that I may have missed
+
+
+
+Test Cases (Corresponding to the possible issues above)
+
+For each test case, I have included portions of the output. For full output refer to attached relevant output sheet.
+
+1.
+To test this the first possible issue, I printed the return from that method in a main I constructed in my Beverage class for a few different beverages. I then calculated what the correct price per ounce was. When the number the costPerUnit method returned matched my own calculations, I knew that I was correct.
+
+Relevant Sample Output:
+
+Cost per fluid ounce of Coke = 0.125$
+Cost per fluid ounce of Beer = 0.1$
+Cost per fluid ounce of Water = 0.09375$
+
+2.
+For the sake of finishing this assignment, I made methods getCost and costPerUnit independently of the superclass. This way I was able to make the classes different to suit the subclass needs and I was able to print the results later on since I did not have to worry about the static declaration of the class.
+
+Sample output A- getCost from Beverage subclass (including deposit):
+
+The price of the soup is: 1.1$
+The price of the beer is: 4.05$
+The price of the toilet paper is: 3.0$
+
+Sample output B- costPerUnit from Beverage subclass:
+
+Cost per fluid ounce of Coke = 0.125$
+Cost per fluid ounce of Beer = 0.1$
+Cost per fluid ounce of Water = 0.09375$
+
+Sample output C- costPerUnit from Produce subclass:
+
+The unit price of Apple is: 0.5
+The unit price of Corn is: 0.3333333333333333
+The unit price of Clementine is: 2.5
+
+3.
+To test this, I calculated the total of the Items I was adding to my cart
+by hand. In this test I had added 2 packs of Creme Cakes at a dollar each,
+a 12-pack of Coke for 5$, a package of Textbooks for 250 dollars, Milk for
+a dollar, beer for 3 dollars, water for 3 dollars, 3 apples at a dollar
+each, corn for a dollar, and a pound of clementines for 5 dollars. The total I
+calculated by hand was 274$. The portion of output relating to this is as
+follows
+
+Relevant Sample Output:
+
+Total cost of items in cart: 274$
+
+4.
+This part was interesting because following the instructions for the
+supplemental problem I tried to implement numberInCart by expanding the
+Item class. I found however that I did not have to do that. I was able to
+keep name initialized as protected. My numberInCart method uses compareTo
+which returns an integer regarding whether or not two words match. I have
+experience with compareTo from other Java projects and it only took a quick
+brush up before I could implement it. Since I did this implementation my
+own way, I was sure to do ample testing to make sure that it was
+working correctly. I added two of the same Package to Cart as well as 3
+Apples. I then ran numberInCart for Apple and the package (creme
+cakes). Again I will mention that I have a complete output sheet attached,
+but the output relating to this is as follows:
+
+Relevant Sample Output:
+
+Total Number of Apples in Cart: 3
+
+Total Number of Creme Cakes in Cart: 2
+
+
+Statement of Correctness:
+I believe my program is correct. I first outlined the most obvious
+potential problems I could identify, and tested them as you saw
+above. While I coded I also naturally was always doing tests before I
+expanded on what I was working on. I tested my circumstances and verified
+that the program was working in accordance with what I think is right. My
+idea of what is correct is based on the prompt for this problem. I believe
+that my programs fully meet the requirements of the problem and therefore
+believe it is, in this context, correct.

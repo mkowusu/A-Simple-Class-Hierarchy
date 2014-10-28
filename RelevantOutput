@@ -1,0 +1,197 @@
+Michael Owusu
+
+Item Class Relevant Output:
+
+Item A: 
+Name: Soup
+Cost: 1.0$
+
+Item B: 
+Name: Beer
+Cost: 2.0$
+
+Item C: 
+Name: Toilet Paper
+Cost: 3.0$
+
+The price of the soup is: 1.0
+The price of the beer is: 2.0
+The price of the toilet paper is: 3.0
+
+The unit price of Soup is: 1.0
+The unit price of Beer is: 2.0
+The unit price of Toilet Paper is: 3.0
+________________________________________________________________________________
+
+Produce Class Relvant Output:
+
+Produce G:  
+Name: Apple
+Cost: 0.5$
+Weight:  1.0 lbs.
+Category:  Fruit
+
+Produce H:  
+Name: Corn
+Cost: 1.0$
+Weight:  3.0 lbs.
+Category:  Vegetable
+
+Produce I:  
+Name: Clementine
+Cost: 5.0$
+Weight:  2.0 lbs.
+Category:  Fruit
+
+The unit price of Apple is: 0.5
+The unit price of Corn is: 0.3333333333333333
+The unit price of Clementine is: 2.5
+
+________________________________________________________________________________
+
+Beverage Class Relevant Output:
+
+Beverage D:  
+Name: Coke
+Cost: 1.0$
+Container Deposit:  0.1
+Fluid Ounces:  8
+
+Beverage E:  
+Name: Beer
+Cost: 4.0$
+Container Deposit:  0.05
+Fluid Ounces:  40
+
+Beverage F:  
+Name: Water
+Cost: 3.0$
+Container Deposit:  0.0
+Fluid Ounces:  32
+
+The price of the soup is: 1.1$
+The price of the beer is: 4.05$
+The price of the toilet paper is: 3.0$
+
+Cost per fluid ounce of Coke = 0.125$
+Cost per fluid ounce of Beer = 0.1$
+Cost per fluid ounce of Water = 0.09375$
+________________________________________________________________________________
+
+Package Class  Relevant Output:
+
+Package J: 
+Name: Creme Cakes
+Cost: 1.0$
+Length:  10.0
+Width:  6.0
+Height:  1.2
+Weight:  16
+
+Package K:  
+Name: 12-Pack of Coke
+Cost: 5.0$
+Length:  16.0
+Width:  8.0
+Height:  8.0
+Weight:  100
+
+Package L:  
+Name: Text Books
+Cost: 250.0$
+Length:  16.0
+Width:  12.0
+Height:  12.0
+Weight:  1000
+________________________________________________________________________________
+
+ShoppinCart Class Relevant Output:
+
+Shopping Cart Contents
+
+Name: Creme Cakes
+Cost: 1.0$
+Length:  10.0
+Width:  6.0
+Height:  1.2
+Weight:  16
+
+
+Name: Creme Cakes
+Cost: 1.0$
+Length:  10.0
+Width:  6.0
+Height:  1.2
+Weight:  16
+
+
+Name: 12-Pack of Coke
+Cost: 5.0$
+Length:  16.0
+Width:  8.0
+Height:  8.0
+Weight:  100
+
+
+Name: Text Books
+Cost: 250.0$
+Length:  16.0
+Width:  12.0
+Height:  12.0
+Weight:  1000
+
+
+Name: Milk
+Cost: 1.0$
+Container Deposit:  0.5
+Fluid Ounces:  8
+
+
+Name: Beer
+Cost: 4.0$
+Container Deposit:  0.5
+Fluid Ounces:  40
+
+
+Name: Water
+Cost: 3.0$
+Container Deposit:  1.0
+Fluid Ounces:  32
+
+
+Name: Apple
+Cost: 1.0$
+Weight:  0.3 lbs.
+Category:  Fruit
+
+
+Name: Apple
+Cost: 1.0$
+Weight:  0.3 lbs.
+Category:  Fruit
+
+
+Name: Apple
+Cost: 1.0$
+Weight:  0.3 lbs.
+Category:  Fruit
+
+
+Name: Corn
+Cost: 1.0$
+Weight:  0.5 lbs.
+Category:  Vegetable
+
+
+Name: Clementine
+Cost: 5.0$
+Weight:  1.0 lbs.
+Category:  Fruit
+
+End of Listing
+
+Total cost of items in cart: 274$
+
+Total Number of Apples in Cart: 3
+
+Total Number of Creme Cakes in Cart: 2
